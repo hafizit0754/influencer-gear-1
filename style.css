@@ -136,6 +136,8 @@ h4 {
     flex-direction: row-reverse;
     width: 80%;
     margin-left: 120px;
+    margin-top: 5px;
+    margin-bottom: 20px;
     height: auto;
     /* background-image: url(./images/gear.png); */
     background-repeat: no-repeat;
@@ -146,10 +148,13 @@ footer {
 background-color: black;
 color: white;
 text-align: center; 
+margin-top: 10px;
+padding: 1px;
+
     
 }
 .icon-footer{
-    justify-content: space-between;
+    
     width: 24px;
     height: 24px;
 }
