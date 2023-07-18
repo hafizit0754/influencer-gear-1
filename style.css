@@ -74,10 +74,14 @@ li:hover{
     background: #E02C6D;
     color: white;
     border-style: none;
+    /* Next line for Transation */
+    /* property name | duration | easing function | delay */
+    transition: width 2s ease-in-out; 
 }
 
 .btn-all:hover{
     cursor: pointer;
+    width: 400px; /* this line for Transation */
 }
 .section-img {
     background-image: url(./images/Circle\ design.svg);
