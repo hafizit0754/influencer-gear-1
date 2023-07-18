@@ -38,7 +38,10 @@ nav>ul {
     font-weight: 600;
     line-height: normal;
 }
-
+li:hover{
+    color:#E02C6D;
+    cursor: pointer;
+}
 
 .header-img {
     background-image: url(./images/Circle\ design.svg);
