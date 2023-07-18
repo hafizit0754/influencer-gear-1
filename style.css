@@ -16,7 +16,9 @@
     width: 24px;
     height: 24px;
 }
-
+.icon:hover{
+    cursor: pointer;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -117,8 +119,8 @@ li:hover{
 }
 
 .card-container>div {
-    box-shadow: 5px 5px 5px rgb(237, 241, 230);
-    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(179, 196, 235, 0.331);
+    padding: 20px;
     text-align: center;
 
 }
@@ -151,8 +153,8 @@ h4 {
 
 /* footer section */
 footer {
-    
-background-color: black;
+max-width: 100%;  
+background-color: rgb(14, 1, 1);
 color: white;
 text-align: center; 
 margin-top: 10px;
