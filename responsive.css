@@ -34,8 +34,12 @@
         padding-top: 10px;
         padding-bottom: 5px;
     }
+    .feature-container{
+        flex-direction: column;
+    }
     footer{
         width: 100%;
         margin: auto;
     }
+    
 }
