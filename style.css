@@ -76,11 +76,12 @@ li:hover{
     border-style: none;
     /* Next line for Transation */
     /* property name | duration | easing function | delay */
-    transition: width 2s ease-in-out; 
+    transition: width 2s, background-color 3s; 
 }
 
 .btn-all:hover{
     cursor: pointer;
+    background-color: green;
     width: 400px; /* this line for Transation */
 }
 .section-img {
@@ -140,6 +141,7 @@ h4 {
 
 .po-img {
     width: 400px;
+ 
 }
 
 .feature-container {
@@ -173,4 +175,9 @@ padding: 1px;
     gap: 40px;
   
 }
-
+.fet.img{
+    transition: transform 2s;
+}
+.fet-img:hover{
+    transform: rotate(-25deg);
+}
