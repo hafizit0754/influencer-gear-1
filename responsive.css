@@ -3,12 +3,18 @@
     align-items: center;
     margin: auto;
 
+
+    }
+    body{
+        /* border: 1px solid red; */
+        width: 100%;
+        align-items: center;
+        text-align: center;
+
     }
     .popular-container,
     .card-container{
         flex-direction: column;
-        width: 100%;
-        margin:0 10px auto;
     }
 
     .page-title,
@@ -19,12 +25,13 @@
         width: 80%;
         margin: auto;
         background-repeat: no-repeat;
+        margin-right: 10px;
 
     }
     .company-logo{
         flex-direction: column;
         gap: 30px;
-        margin: auto;
+        /* margin-top:20px; */
     }
 
     .card-container,
@@ -32,19 +39,27 @@
         display: grid;
         grid-template-columns: 1fr;
         margin: auto;
-        /* margin-right: auto; */
+       width: 400px;
     }
 
     .btn-all, .fet-img{
         padding-top: 10px;
         padding-bottom: 5px;
+        margin-left: 30px;
+        /* align-items: center; */
     }
     .feature-container{
         flex-direction: column;
+        margin: auto 20px;
+        align-items: center;
     }
     footer{
         width: 100%;
-        margin: auto;
+        /* margin: auto 10px; */
     }
     
+    .media-container{
+        align-items: center;
+    
+    }
 }

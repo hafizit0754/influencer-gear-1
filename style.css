@@ -133,7 +133,7 @@ h4 {
 }
 
 .po-img {
-    width: 500px;
+    width: 400px;
 }
 
 .feature-container {
@@ -164,5 +164,7 @@ padding: 1px;
     
     width: 24px;
     height: 24px;
+    gap: 40px;
+  
 }
 
