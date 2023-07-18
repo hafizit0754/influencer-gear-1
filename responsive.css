@@ -7,13 +7,14 @@
     .page-title,
     .company-logo,
     .popular-title,
-    ..feature-container {
+    .feature-container {
         flex-direction: column;
         margin: auto;
         width: 80%;
-        margin-left: 120px;
+        margin-left: auto;
         margin-top: 5px;
         margin-bottom: 20px;
+        margin-right: 10px;
         height: auto;
         /* background-image: url(./images/gear.png); */
         background-repeat: no-repeat;
@@ -25,7 +26,11 @@
         display: grid;
         grid-template-columns: 1fr;
         margin: auto;
+        margin-right: auto;
     }
 
-
+    .btn-all, .fet-img{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
 }
