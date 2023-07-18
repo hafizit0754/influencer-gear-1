@@ -7,7 +7,8 @@
     }
     body{
         /* border: 1px solid red; */
-        width: 100%;
+        /* width:100%; */
+        margin-right: 20px;
         align-items: center;
         text-align: center;
 
@@ -15,6 +16,7 @@
     .popular-container,
     .card-container{
         flex-direction: column;
+        margin-left: 30px;
     }
 
     .page-title,
@@ -39,27 +41,36 @@
         display: grid;
         grid-template-columns: 1fr;
         margin: auto;
-       width: 400px;
+       width: 490px;
     }
 
-    .btn-all, .fet-img{
+    .btn-all, {
         padding-top: 10px;
         padding-bottom: 5px;
         margin-left: 30px;
+       
         /* align-items: center; */
+    }
+    ..fet-img{
+        padding-top: 10px;
+        padding-bottom: 5px;
+        margin-left: 30px;
+        width: 480px;
     }
     .feature-container{
         flex-direction: column;
-        margin: auto 20px;
+        /* margin: auto 20px; */
         align-items: center;
     }
     footer{
         width: 100%;
+        align-items: center;
         /* margin: auto 10px; */
     }
     
-    .media-container{
+    /* .media-container{
         align-items: center;
+        margin-left: 50px;
     
-    }
+    } */
 }
