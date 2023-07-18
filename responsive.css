@@ -9,6 +9,7 @@
     .popular-title,
     .feature-container {
         flex-direction: column;
+        flex-direction:column-reverse;
         margin: auto;
         width: 80%;
         margin-left: auto;
