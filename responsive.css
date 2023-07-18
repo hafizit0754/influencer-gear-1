@@ -26,11 +26,15 @@
         display: grid;
         grid-template-columns: 1fr;
         margin: auto;
-        margin-right: auto;
+        /* margin-right: auto; */
     }
 
     .btn-all, .fet-img{
         padding-top: 10px;
         padding-bottom: 5px;
+    }
+    footer{
+        width: 100%;
+        margin: auto;
     }
 }

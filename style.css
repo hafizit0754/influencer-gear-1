@@ -74,7 +74,9 @@ li:hover{
     border-style: none;
 }
 
-
+.btn-all:hover{
+    cursor: pointer;
+}
 .section-img {
     background-image: url(./images/Circle\ design.svg);
 }
@@ -108,7 +110,8 @@ li:hover{
 }
 
 .popular-container {
-    width: 90%;
+    width: 100%;
+    
     margin: 0 auto;
 
 }
@@ -148,6 +151,7 @@ h4 {
 
 /* footer section */
 footer {
+    
 background-color: black;
 color: white;
 text-align: center; 
